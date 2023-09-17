@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-image: linear-gradient(30deg, #d21a89 0%, #2373ba 96%);
+  padding: 40px 0px 10px 0px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+nav h2 {
+  color: #fff;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: 1rem 4rem;
+}
+
+.hero {
+  margin: 0 4rem;
+  background-image: url(https://realdate.in/wp-content/uploads/slider/cache/32737d5b0ce985c760c58578e0f9b816/affectionate-couple-standing-by-decorated-wall-scaled.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 15vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.overlay h1 {
+  color: #fff;
+  font-size: 218.75%;
+  font-family: "Libre Baskerville", "Arial";
+}
+.register {
+  padding: 1rem 1.5rem;
+  background-color: #a82f95;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+.register a {
+  color: #fff;
+  font-weight: 600;
+}
+.register:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+.event-highlight {
+  text-align: center;
+  padding: 1rem 0;
+}
+.event-highlight > h1 {
+  line-height: 4;
+}
+.high-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.high-cont img {
+  width: 100px;
+}
+.high-cont .containr,
+.works-cont .containr {
+  padding: 50px 50px 90px 50px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: #a82f95;
+  border-radius: 5px 5px 5px 5px;
+}
+.containr h3 {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 2;
+}
+.containr p,
+.works-cont p {
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.works {
+}
+.works h1 {
+  line-height: 3;
+  text-align: center;
+}
+.works-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.works-cont img {
+  width: 150px;
+}
+.why h1 {
+  text-align: center;
+  line-height: 3;
+}
+.reason-cont {
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  gap: 2rem;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.reacons {
+  width: 380px;
+  text-align: center;
+}
+.reacons img {
+  width: 55%;
+}
+.reacons .text {
+  text-align: start;
+}
+.text h3 {
+  color: #6ec1e4;
+  line-height: 2;
+}
+.reacons .text p {
+  letter-spacing: 1px;
+  line-height: 1.6;
+  opacity: 0.6;
+}
+
+/*  */
+@media only screen and (max-width: 700px) {
+  .container {
+    margin: 0.5rem 0rem;
+  }
+  header {
+    padding: 10px 0 10px 10px;
+  }
+  header nav {
+    justify-content: start;
+    align-items: center;
+  }
+  nav h2 {
+    font-size: 22px;
+  }
+  nav a img {
+    width: 100px;
+  }
+  nav h2 span {
+    font-size: 12px;
+  }
+  .hero {
+    margin: 0 2rem;
+    height: 60vh;
+  }
+  .overlay {
+    padding: 3.5rem 10px;
+  }
+  .overlay h1 {
+    font-size: 28px;
+    line-height: 1.5;
+    font-family: serif;
+  }
+  .high-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .works-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .containr {
+    text-align: center;
+  }
+}
