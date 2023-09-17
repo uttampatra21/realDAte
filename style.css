@@ -62,12 +62,7 @@ nav h2 {
   padding: 1rem 1.5rem;
   background-color: #a82f95;
   color: #fff;
-  outline: none;
-  border: none;
   border-radius: 50px;
-}
-.register a {
-  color: #fff;
   font-weight: 600;
 }
 .register:hover {
@@ -110,8 +105,7 @@ nav h2 {
   font-weight: 400;
   opacity: 0.8;
 }
-.works {
-}
+
 .works h1 {
   line-height: 3;
   text-align: center;
@@ -127,6 +121,7 @@ nav h2 {
 .why h1 {
   text-align: center;
   line-height: 3;
+  font-size: 1.5em;
 }
 .reason-cont {
   width: 100%;
@@ -205,7 +200,7 @@ nav h2 {
     margin: 0.5rem 0rem;
   }
   header {
-    padding: 10px 0 10px 10px;
+    padding: 15px 0 15px 12px;
   }
   header nav {
     justify-content: start;
@@ -241,6 +236,9 @@ nav h2 {
     flex-direction: column;
   }
   .containr {
+    text-align: center;
+  }
+  .reacons .text {
     text-align: center;
   }
 }
