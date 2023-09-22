@@ -45,3 +45,16 @@ const footer = `
         </ul>
       </div>`;
 document.getElementById("footer").innerHTML = footer;
+
+//
+const girls = `
+<div class=""></div>
+`;
+const girlSec = document.querySelectorAll(".girls");
+const x = document.querySelector(".x");
+// girlSec.addEventListiner("click", () => {});
+
+x.addEventListener("click", () => {
+  console.log("hii");
+  document.querySelector(".girl-sec").style.visibility = "hidden";
+});

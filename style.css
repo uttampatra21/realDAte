@@ -193,6 +193,53 @@ nav h2 {
 .nth2 a {
   color: #fff;
 }
+
+/* !  Regiester */
+.reg {
+  padding: 10px;
+}
+.profile-img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.girls img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  display: block;
+}
+.det {
+  padding: 10px;
+  background-color: #a82f95;
+  color: #fff;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.girl-sec {
+  visibility: visible;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  padding: 10px;
+  font-size: 2rem;
+}
 /*  */
 @media only screen and (max-width: 700px) {
   .container {
