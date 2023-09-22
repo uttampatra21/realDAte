@@ -9,7 +9,7 @@ const Header = `
         </a>
         <h2>
           REAL DATE
-          <span>Bringing Offline Dating Back</span>
+          <span>Bringing Online Dating Back</span>
         </h2>
       </nav>
 `;
