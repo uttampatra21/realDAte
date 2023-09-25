@@ -198,12 +198,16 @@ nav h2 {
 .reg {
   padding: 10px;
 }
-.profile-img-cont {
-  display: flex;
-  align-items: center;
+.gird-cont h3 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#grid {
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
+  display: flex;
+  margin-bottom: 2rem;
 }
 .girls img {
   width: 150px;
@@ -213,13 +217,7 @@ nav h2 {
   border-top-left-radius: 10%;
   display: block;
 }
-.det {
-  padding: 10px;
-  background-color: #a82f95;
-  color: #fff;
-  border-bottom-right-radius: 10%;
-  border-bottom-left-radius: 10%;
-}
+
 .girl-sec {
   visibility: hidden;
   width: 100%;

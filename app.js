@@ -58,3 +58,25 @@ x.addEventListener("click", () => {
   console.log("hii");
   document.querySelector(".girl-sec").style.visibility = "hidden";
 });
+
+//
+
+const girlObj = {
+  girl1: "/section/01.jpge",
+};
+console.log(girlObj1);
+const girlSecItem = girlObj
+  .map((x) => {
+    return `
+  <div class="girls">
+    <img src=${x.girl1} alt="" />
+    <div class="det">
+      <span class="name">Uttam</span>
+      <span class="age">21</span>
+    </div>
+  </div>
+  `;
+  })
+  .join(" ");
+console.log(girlSecItem);
+//.getElementById("grid").innerHTML = girlSecItem;
