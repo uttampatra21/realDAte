@@ -3,7 +3,7 @@ const x = document.querySelector(".x");
 x.addEventListener("click", () => {
   document.querySelector(".girl-sec").style.visibility = "hidden";
 });
-
+//! 1
 const girl1 = () => {
   document.querySelector(".girl-sec").style.visibility = "visible";
   document.querySelector("#changeGirl").src =
@@ -19,5 +19,82 @@ const girl2 = () => {
 const girl3 = () => {
   document.querySelector(".girl-sec").style.visibility = "visible";
   document.querySelector("#changeGirl").src =
-    "http://127.0.0.1:5500/images/section2/WhatsApp%20Image%202023-09-25%20at%2012.33.50.jpeg";
+    "/images/section1/WhatsApp Image 2023-09-25 at 12.33.35.jpeg";
+};
+
+// ! 2
+const girl4 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section2/WhatsApp Image 2023-09-25 at 12.33.49.jpeg";
+};
+const girl5 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section2/WhatsApp Image 2023-09-25 at 12.33.50 (1).jpeg";
+};
+
+const girl6 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section2/WhatsApp Image 2023-09-25 at 12.33.50.jpeg";
+};
+
+// ! 3
+const girl7 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section3/WhatsApp Image 2023-09-25 at 12.34.04.jpeg";
+};
+const girl8 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section3/WhatsApp Image 2023-09-25 at 12.34.05 (1).jpeg";
+};
+
+const girl9 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section3/WhatsApp Image 2023-09-25 at 12.34.05.jpeg";
+};
+
+// ! 4
+
+const girl10 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section4/WhatsApp Image 2023-09-27 at 11.15.33 (1).jpeg";
+};
+const girl11 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section4/WhatsApp Image 2023-09-27 at 11.15.33 (2).jpeg";
+};
+const girl12 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section4/WhatsApp Image 2023-09-27 at 11.15.33.jpeg";
+};
+//! 5
+
+const girl13 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section5/WhatsApp Image 2023-09-27 at 11.16.07 (1).jpeg";
+};
+const girl14 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section5/WhatsApp Image 2023-09-27 at 11.16.07.jpeg";
+};
+const girl15 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section5/WhatsApp Image 2023-09-27 at 11.16.07 (1).jpeg";
+};
+// ! 6
+const girl16 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section5/WhatsApp Image 2023-09-27 at 11.16.07 (1).jpeg";
 };
