@@ -141,3 +141,54 @@ const girl24 = () => {
   document.querySelector("#changeGirl").src =
     "/images/section8/WhatsApp Image 2023-09-27 at 11.18.33 (1).jpeg";
 };
+// ! 9
+
+const girl25 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section9/WhatsApp Image 2023-09-27 at 11.18.55.jpeg";
+};
+const girl26 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section9/WhatsApp Image 2023-09-27 at 11.18.56 (1).jpeg";
+};
+const girl27 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section9/WhatsApp Image 2023-09-27 at 11.18.56.jpeg";
+};
+
+// ! 10
+const girl28 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section10/WhatsApp Image 2023-09-27 at 11.20.18.jpeg";
+};
+const girl29 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section10/WhatsApp Image 2023-09-27 at 11.20.18 (2).jpeg";
+};
+const girl30 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section10/WhatsApp Image 2023-09-27 at 11.20.18 (1).jpeg";
+};
+
+// ! 11
+const girl31 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section10/WhatsApp Image 2023-09-27 at 11.20.18 (1).jpeg";
+};
+const girl32 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section10/WhatsApp Image 2023-09-27 at 11.20.18 (1).jpeg";
+};
+const girl33 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section10/WhatsApp Image 2023-09-27 at 11.20.18 (1).jpeg";
+};
