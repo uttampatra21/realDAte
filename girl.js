@@ -96,5 +96,48 @@ const girl15 = () => {
 const girl16 = () => {
   document.querySelector(".girl-sec").style.visibility = "visible";
   document.querySelector("#changeGirl").src =
-    "/images/section5/WhatsApp Image 2023-09-27 at 11.16.07 (1).jpeg";
+    "/images/section6/WhatsApp Image 2023-09-27 at 11.16.58.jpeg";
+};
+const girl17 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section6/WhatsApp Image 2023-09-27 at 11.16.59 (1).jpeg";
+};
+const girl18 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section6/WhatsApp Image 2023-09-27 at 11.16.59.jpeg";
+};
+
+//! 7
+const girl19 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section7/WhatsApp Image 2023-09-27 at 11.17.37.jpeg";
+};
+const girl20 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section7/WhatsApp Image 2023-09-27 at 11.17.37 (1).jpeg";
+};
+const girl21 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section7/WhatsApp Image 2023-09-27 at 11.17.38.jpeg";
+};
+// ! 8
+const girl22 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section8/WhatsApp Image 2023-09-27 at 11.18.33.jpeg";
+};
+const girl23 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section8/WhatsApp Image 2023-09-27 at 11.18.33 (2).jpeg";
+};
+const girl24 = () => {
+  document.querySelector(".girl-sec").style.visibility = "visible";
+  document.querySelector("#changeGirl").src =
+    "/images/section8/WhatsApp Image 2023-09-27 at 11.18.33 (1).jpeg";
 };
