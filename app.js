@@ -31,7 +31,7 @@ const footer = `
           <li>
             <h3>Contact us:</h3>
             <ul class="nth2">
-              <li>Email: info@XXXXXX.in</li>
+              <li>Email: info@realdate.in</li>
               <li>Phone: XXXXXXXXX9</li>
             </ul>
           </li>
