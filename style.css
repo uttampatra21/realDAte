@@ -65,6 +65,12 @@ nav h2 {
   border-radius: 50px;
   font-weight: 600;
 }
+.pan {
+  background-color: #08b3ab;
+  padding: 1rem;
+  color: #fff;
+}
+
 .register:hover {
   background-color: green;
   transition: 0.5s;
@@ -129,7 +135,7 @@ nav h2 {
   gap: 2rem;
   overflow: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .reacons {
